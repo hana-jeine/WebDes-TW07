@@ -8,7 +8,7 @@
 
 .navbar-brand{
     font-weight: 500;
-    color:#009970;
+    color: #009970;
     font-size: 24px;
     transition: 0.3s color;
 }
@@ -50,10 +50,10 @@
 @media(mid-width: 991px){
     
 .nav-link::before{
-    content: " ";
+    content: "";
     position: absolute;
     bottom: 0;
-    left: 50px;
+    left: 50;
     transform: translateX(-50%);
     width: 0;
     height: 2px;
@@ -76,7 +76,7 @@
 
 .hero-section::before{
     background-color: rgba(0,0,0,0.6);
-    content: " ";
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
